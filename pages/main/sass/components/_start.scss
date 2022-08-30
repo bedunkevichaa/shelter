@@ -1,0 +1,155 @@
+.start {
+	height: 908px;
+	background: url('../../..//assets/img/bg/start-screen-gradient-background.png') center center/cover no-repeat;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+
+}
+
+.logo {
+	text-decoration: none;
+}
+
+.logo:hover {
+	cursor: url("../../../assets/icons/cursor_hover_light.png"), auto;	
+}
+
+h1 {
+
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	letter-spacing: 0.06em;
+	color: #F1CDB3;
+}
+.logo__subtitle {
+
+	padding-left: 4px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 18px;
+	width: 444px;
+}
+
+.navigation li {
+	list-style-type: none;
+}
+
+.navigation .li-logo {
+	display: none;
+	position: absolute;
+	//z-index: 1;
+    top: 30px;
+    padding-right: 118px;
+}
+
+.header__navigation .link {
+	padding-right: 1px;
+	text-decoration: none;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #CDCDCD;
+}
+
+.header__navigation .link:hover {
+	color: #FAFAFA;
+	cursor: url("../../../assets/icons/cursor_hover_light.png"), auto;	
+	
+}
+
+.header__navigation .link_active {
+	padding-bottom: 4px;
+	border-bottom: 3px #F1CDB3 solid;
+	height: 24px;
+	color: #FAFAFA;
+}
+
+.start .wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 59px;
+	width: 100%;
+	height: auto;
+
+}
+
+.wrapper .content {
+	max-width: 460px;
+	height: auto;
+	margin-top: 163px;
+}
+
+h2 {
+	max-width: 310px;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 130%;
+	color: #FFFFFF;
+}
+
+p {
+	margin-top: 41px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #CDCDCD;
+}
+
+.btn_colored {
+	margin-top: 42px;
+	width: 207px;
+	height: 52px;
+	left: calc(50% - 207px/2 - 126.5px);
+	background: #F1CDB3;
+	border-radius: 100px;
+	border-style: none;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 0.06em;
+	color: #292929;
+	transition: all 150ms ease-in-out;
+}
+
+.onfocus_dark-cursor:hover {
+	border-style: none;
+	background-color: #FDDCC4;  
+	cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;  
+}
+
+.puppy-bg img {
+	width: 100%;
+	height: auto;
+}
+
+
+

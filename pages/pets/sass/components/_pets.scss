@@ -1,0 +1,127 @@
+.pets {
+    height: 1342px;
+    background: #F6F6F6;
+}
+
+.pets .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pets__title {
+    text-align: center;
+    margin-bottom: 13px;
+    padding: 80px 0 45px 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+}
+
+.pets__wrapper .card {
+    background: #FAFAFA;
+    width: 270px;
+    height: 435px;
+    text-align: center;
+    
+}
+
+.pets__subtitle {
+    margin-top: 26px;
+    margin-bottom: 30px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.learn_more {
+    text-align: center;
+    width: 187px;
+    height: 52px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    background: #FAFAFA;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    transition: all 150ms ease-in-out;
+}
+
+.learn_more:hover {
+    cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}
+
+.card:hover {
+    cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    background: #FFFFFF;
+}
+
+.pets__wrapper .card:hover .learn_more {
+    border: 2px solid #FDDCC4;
+    background: #FDDCC4;
+
+}
+
+.pets__navi {
+    margin: 0 auto;
+    width: 340px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pets__navi button {
+    background:#F6F6F6;
+    width: 2.6em;
+    height: 2.6em;
+    border: 2px solid #FDDCC4;
+    border-radius: 50%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color:  #292929;
+}
+
+.pets__navi .btn-hover:hover {
+    cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}
+
+.pets__navi .btn-inactive {
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+}
+
+.pets__navi .btn-current {
+    border: 2px solid #F1CDB3;
+    background: #F1CDB3;
+}
+
+.pets__navi .btn-hover:hover {
+    background: #FDDCC4;
+}
