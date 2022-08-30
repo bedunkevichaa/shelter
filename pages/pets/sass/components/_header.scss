@@ -1,0 +1,99 @@
+.header {
+    height: 120px;
+    background: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; /* required */
+}
+
+header .container {
+    max-width: 1280px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo:hover {
+	cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;	
+}
+
+.header__navigation .link:hover {
+	color: #FAFAFA;
+	cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;	
+	
+}
+.logo__title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454; 
+
+    margin: 31px 0 10px 0;
+}
+.logo__subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #292929;
+    padding-left: 4px;
+}
+
+.header .logo-link {
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+    width: 444px;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation .li-logo {
+	display: none;
+	position: absolute;
+	//z-index: 1;
+    top: 30px;
+    padding-right: 118px;
+}
+
+.header__navigation .link {
+    
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color:#545454;
+}
+
+.header__navigation .link-active {
+    padding-bottom: 4px;
+    border-bottom: 3px #F1CDB3 solid;
+    height: 24px;
+    color: #545454;
+}
+
+.header__navigation .link:hover {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #292929;
+}

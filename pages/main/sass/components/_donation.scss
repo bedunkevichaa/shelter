@@ -1,0 +1,97 @@
+.donation {
+    height: 464px;
+    background: #F6F6F6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.donation__wrapper  {
+    display: flex;
+}
+
+.donation__wrapper .image {
+    /* margin: 91px 30px 110px 183 */
+    margin-left: 142px;
+    margin-right: 30px;
+    margin-top: 92px;
+    width: 505px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+.donation__descr {
+    max-width: 380px;
+    margin-top: 82px;
+}
+
+.donation__descr a:hover {
+    cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;
+   
+}
+
+.donation__title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 129%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__subtitle {
+    padding: 19px 0;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__btn {
+    display: flex;
+    justify-content: space-around;
+    width: 349px;
+    height: 43px;
+    background: $color-primary;
+    border-radius: 9px;
+    border: none;
+    padding: 0 7px;
+    padding-top: 3px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__btn:hover {
+    cursor: url("../../../assets/icons/cursor_hover_dark.png"), auto;
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}
+
+ .donation a {
+     text-decoration: none;
+ }
+
+.donation__text {
+    padding-top: 18px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}

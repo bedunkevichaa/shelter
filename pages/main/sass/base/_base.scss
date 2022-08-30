@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../../../assets/fonts/arial/Arial-ItalicMT.woff2') format('woff2'),
+        url('../../../assets/fonts/arial/Arial-ItalicMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../../../assets/fonts/arial/ArialMT.woff2') format('woff2'),
+        url('../../../assets/fonts/arial/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../../../assets/fonts/georgia/Georgia-Italic.woff2') format('woff2'),
+        url('../../../assets/fonts/georgia/Georgia-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../../../assets/fonts/georgia/Georgia.woff2') format('woff2'),
+        url('../../../assets/fonts/georgia/Georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+    font-style: 10px;
+}
+
+  /* Теперь можно использовать шрифт */
+body {
+    font-family: "Georgia", "Arial" serif;
+    
+}
+
+*, p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

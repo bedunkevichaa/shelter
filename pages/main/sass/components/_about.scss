@@ -1,0 +1,59 @@
+.about {
+    height: 588px;
+}
+
+.wrap_about {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+ }
+ 
+ .pets_bg {
+     margin: 80px 120px 100px 175px;
+ }
+ 
+ .pets_bg img {
+     width: 100%;
+     height: auto;
+ } 
+
+.about_discr {
+    margin: 94px 7px 114px 0;
+    width: 50%;
+}
+
+.about_title {
+    max-width: 370px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.about_subtitle1 {
+    /* 430px));  */
+    max-width: 430px;
+    margin-top: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+
+.about_subtitle2 {
+    /* width: calc(100% - (100% - 430px));  */
+    max-width: 430px;
+    margin-top: 25px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}

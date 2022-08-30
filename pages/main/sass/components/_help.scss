@@ -1,0 +1,134 @@
+.help {
+
+    height: 611px;
+
+}
+
+.help__title {
+    max-width: 310px;
+    margin: 0 auto;
+    padding-top: 81px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.help__icons {
+    padding-top: 60px;
+    margin: 0 auto;
+    max-width: 1180px;
+   
+}
+
+.help__first {
+    
+    display: flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+    // align-content: flex-start;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.help__first .first__line {
+    width: 20%;
+    margin-bottom: 55px;
+}
+
+.help__first .toys  {
+    padding-right: 21px;
+}
+
+.help__first .bowls {
+    padding-right: 41px;
+}
+
+.help__first .shampoos {
+    padding-right: 18px;
+}
+
+.help__first .second__line {
+    width: 25%;
+    
+}
+
+.help__first .vitamins {
+    padding-left: 116px;
+    .vitamins_img {
+        padding-bottom: 2px;
+    }
+}
+
+
+
+.help__first .medicines {
+    padding-right: 42px;
+}
+
+.help__first .collars {
+    padding-right: 127px;
+    .collars_img {
+        margin-bottom: 4px;
+    }
+}
+
+.help__first .sleeping {
+    padding-right: 167px;
+} 
+
+.help__first .sleeping_descr {
+    letter-spacing:normal;
+}
+
+.help__first div {
+    text-align: center;
+}
+
+.help__descr {
+    padding-top: 25px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+
+
+.bowls__img {
+    padding-bottom: 2px;
+}
+
+.vitamins {
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.vitamins__descr {
+    padding-left: 1px;
+}
+
+.collars {
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
+
+
+.help__second {
+    padding: 56px 83px 100px 83px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
